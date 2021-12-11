@@ -95,7 +95,6 @@ hr {
 }
 
 .members-links {
-  padding: auto;
   margin: 0 auto;
 }
 
@@ -186,4 +185,52 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.about img {
+  height: 500px;
+  margin: 10px auto;
+}
+
+.about h3 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.about ul {
+  margin-left: 50px;
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.contact input,
+textarea {
+  width: 500px;
+  padding: 10px 10px;
+  font-size: 1.8rem;
+  font-family: "Trebuchet", sans-serif;
+}
+
+.contact input,
+textarea {
+  margin: 10px auto;
+}
+
+.contact button {
+  width: 500px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  background: rgb(20, 209, 20);
+  border-radius: 5px;
+  padding: 10px;
 }
