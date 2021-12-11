@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 65%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Trebuchet", sans-serif;
+  font-size: 2rem;
+}
+
+nav {
+  display: flex;
+  height: 15vh;
+  padding: 20px;
+  box-shadow: 0px 2px 20px black;
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1;
+}
+
+.logo {
+  flex: 1 1 auto;
+  display: flex;
+}
+
+.logo a {
+  font-size: 5rem;
+}
+
+.logo img {
+  height: 100%;
+  border-radius: 50%;
+}
+
+nav header {
+  flex: 10 1 auto;
+  font-size: 5rem;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+nav header a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-links {
+  flex: 5 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nav-links ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-links li {
+  list-style: none;
+  display: inline;
+  font-size: 3rem;
+}
+
+.nav-links a {
+  color: black;
+}
+
+section {
+  padding: 10px 40px 10px 40px;
+}
+
+hr {
+  width: 100%;
+  margin: 10px auto 10px auto;
+}
+
+.introduction {
+  padding-top: 40px;
+}
+
+.introduction img {
+  max-height: 800px;
+  max-width: 100%;
+  margin-right: 10px;
+}
+
+.members-links {
+  padding: auto;
+  margin: 0 auto;
+}
+
+.members-links h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.members-links-grid {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas:
+    "topleft topcenter topright"
+    "bottomleft bottomcenter bottomright";
+}
+
+.ml-1 {
+  grid-area: topleft;
+}
+.ml-2 {
+  grid-area: topcenter;
+}
+.ml-3 {
+  grid-area: topright;
+}
+.ml-4 {
+  grid-area: bottomleft;
+}
+.ml-5 {
+  grid-area: bottomcenter;
+}
+.ml-6 {
+  grid-area: bottomright;
+}
+.member-link img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.member-link a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.member-link a h3 {
+  font-weight: normal;
+}
+.member-link a:hover {
+  text-decoration: underline;
+}
+
+.members li {
+  list-style: none;
+}
+
+.members li ul {
+  margin-bottom: 20px;
+}
+
+.members li li {
+  list-style-type: disc;
+}
+
+.members li h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+}
+
+.members li img {
+  height: 700px;
+  max-width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.members li p {
+  margin-bottom: 10px;
+}
+
+.member-abilities-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
